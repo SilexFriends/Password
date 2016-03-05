@@ -1,6 +1,6 @@
 {
   "name" : "mrprompt/silex-password",
-  "description" : "Silex Vimeo Provider",
+  "description" : "Silex Password Provider",
   "license" : "MIT",
   "type": "library",
   "autoload" : {

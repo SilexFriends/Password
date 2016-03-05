@@ -4,49 +4,50 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d802f9b62fb12d5c4a693a4d6128e7fd",
-    "content-hash": "ccec4573984f24efa4e7c5467630e946",
+    "hash": "a54198337a5d3f58f77726fb1548e45d",
+    "content-hash": "5f55c6957ada58b10b0cb4b116805945",
     "packages": [
         {
-            "name": "vimeo/vimeo-api",
-            "version": "1.2.3",
+            "name": "ircmaxell/password-compat",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/vimeo/vimeo.php.git",
-                "reference": "e48b19db7febe8431c5e8c609ea9ffe61e1b9e3d"
+                "url": "https://github.com/ircmaxell/password_compat.git",
+                "reference": "5c5cde8822a69545767f7c7f3058cb15ff84614c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/vimeo.php/zipball/e48b19db7febe8431c5e8c609ea9ffe61e1b9e3d",
-                "reference": "e48b19db7febe8431c5e8c609ea9ffe61e1b9e3d",
+                "url": "https://api.github.com/repos/ircmaxell/password_compat/zipball/5c5cde8822a69545767f7c7f3058cb15ff84614c",
+                "reference": "5c5cde8822a69545767f7c7f3058cb15ff84614c",
                 "shasum": ""
             },
-            "require": {
-                "php": ">=5.3.0"
+            "require-dev": {
+                "phpunit/phpunit": "4.*"
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Vimeo\\": "src/Vimeo"
-                }
+                "files": [
+                    "lib/password.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "Apache-2.0"
+                "MIT"
             ],
             "authors": [
                 {
-                    "name": "Vimeo",
-                    "homepage": "http://vimeo.com"
+                    "name": "Anthony Ferrara",
+                    "email": "ircmaxell@php.net",
+                    "homepage": "http://blog.ircmaxell.com"
                 }
             ],
-            "description": "Official PHP library for the Vimeo API.",
-            "homepage": "https://github.com/vimeo/vimeo.php",
+            "description": "A compatibility library for the proposed simplified password hashing algorithm: https://wiki.php.net/rfc/password_hash",
+            "homepage": "https://github.com/ircmaxell/password_compat",
             "keywords": [
-                "video",
-                "vimeo"
+                "hashing",
+                "password"
             ],
-            "time": "2015-06-02 21:55:45"
+            "time": "2014-11-20 16:49:30"
         }
     ],
     "packages-dev": [
@@ -1637,9 +1638,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.0",
-        "ext-curl": "*",
-        "ext-json": "*"
+        "php": ">=7.0"
     },
     "platform-dev": []
 }

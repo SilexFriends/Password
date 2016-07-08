@@ -1,5 +1,5 @@
 {
-  "name" : "SilexFriends/Password",
+  "name" : "silexfriends/password",
   "description" : "Silex Password Provider",
   "license" : "MIT",
   "type": "library",

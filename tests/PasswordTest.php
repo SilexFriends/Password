@@ -1,9 +1,9 @@
 <?php
 declare(strict_types = 1);
 
-namespace MrPrompt\Silex\Tests;
+namespace SilexFriends\Tests\Password;
 
-use MrPrompt\Silex\Password;
+use SilexFriends\Password\Password;
 use PHPUnit_Framework_TestCase;
 use Silex\Application;
 

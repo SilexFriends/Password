@@ -1,5 +1,5 @@
 {
-  "name" : "silexfriends/password",
+  "name" : "mrprompt/silex-password",
   "description" : "Silex Password Provider",
   "license" : "MIT",
   "type": "library",
